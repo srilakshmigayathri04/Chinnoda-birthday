@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090912">
+  <title>For My Chinnoda ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero screen" id="hero">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">A little something for you</p>
+      <h1>Hey, <span>Chinnoda</span>…</h1>
+      <p class="hero-line">I made a tiny corner of the internet<br>just for you.</p>
+      <button class="start-btn" id="startBtn">Open your surprise <span>♡</span></button>
+      <div class="scroll-hint">scroll slowly ↓</div>
+    </section>
+
+    <section class="story screen">
+      <p class="section-number">01 — BEFORE US</p>
+      <h2>Before you became<br><em>my person…</em></h2>
+
+      <div class="photo-grid">
+        <figure class="photo-card card-one">
+          <img src="images/childhood-1.jpg" alt="Chinnoda as a child">
+          <figcaption>Once upon a time…</figcaption>
+        </figure>
+        <figure class="photo-card card-two">
+          <img src="images/childhood-2.jpg" alt="Chinnoda as a little child">
+          <figcaption>there was this little boy.</figcaption>
+        </figure>
+      </div>
+
+      <p class="soft-copy">Years passed. Life changed.<br>And then, somehow, our paths met.</p>
+    </section>
+
+    <section class="story screen">
+      <p class="section-number">02 — SOMEWHERE ALONG THE WAY</p>
+      <div class="quote">
+        <p>“I didn't know that someone<br>so far away could feel<br><em>so close to my heart.</em>”</p>
+      </div>
+
+      <div class="roles">
+        <div><span>my</span><strong>best friend</strong></div>
+        <div><span>my</span><strong>safe place</strong></div>
+        <div><span>my</span><strong>life partner</strong></div>
+      </div>
+    </section>
+
+    <section class="distance screen">
+      <p class="section-number">03 — MILES</p>
+      <div class="orbit">
+        <span class="dot dot-a"></span>
+        <span class="dot dot-b"></span>
+        <span class="orbit-line"></span>
+        <span class="heart">♡</span>
+      </div>
+      <h2>Different places.<br><em>Same hearts.</em></h2>
+      <p>We may not have a hundred pictures together…<br>
+         because our story was never really about pictures.</p>
+      <p class="small-note">It was about choosing each other,<br>even from miles away.</p>
+    </section>
+
+    <section class="birthday screen" id="birthday">
+      <p class="section-number">04 — YOUR DAY</p>
+      <div class="date">26 · 09 · 2026</div>
+      <p class="date-label">a day worth celebrating</p>
+
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>days</span></div>
+        <div><strong id="hours">00</strong><span>hours</span></div>
+        <div><strong id="minutes">00</strong><span>minutes</span></div>
+        <div><strong id="seconds">00</strong><span>seconds</span></div>
+      </div>
+    </section>
+
+    <section class="final screen">
+      <div class="final-glow"></div>
+      <p class="eyebrow">and finally…</p>
+      <h2>Happy Birthday,<br><em>Chinnoda ♡</em></h2>
+      <p class="final-message">
+        Miles may be between us,<br>
+        but you have never felt far.<br><br>
+        Thank you for being my friend,<br>
+        my favourite person,<br>
+        and my life partner.<br><br>
+        I hope we meet soon,<br>
+        make up for all the missed moments,<br>
+        and spend the kind of time together<br>
+        that distance has been keeping from us.
+      </p>
+      <p class="signature">— always yours ♡</p>
+
+      <button class="surprise-btn" id="surpriseBtn">One more thing… ♡</button>
+
+      <div class="secret-message" id="secretMessage">
+        <span class="secret-label">JUST ONE LITTLE WISH</span>
+        <p>
+          I hope we meet soon…<br>
+          no screens, no calls, no distance.<br>
+          Just you and me, sitting together,<br>
+          talking for hours and making<br>
+          the memories we haven't made yet. 🤍
+        </p>
+        <span class="secret-heart">♡</span>
+      </div>
+
+      <button class="replay-btn" id="replayBtn">Replay from the beginning</button>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop preload="auto">
+    <!-- Add your own music file as music/birthday.mp3 -->
+    <source src="music/birthday.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-note" id="musicBtn" title="Play / pause music">♪</button>
+  <script src="script.js"></script>
+</body>
+</html>
